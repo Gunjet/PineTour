@@ -1,0 +1,383 @@
+*{
+  font-family: "Montserrat";
+}
+
+.body{
+  margin: 0;
+  
+}
+.pinetour{
+  background-color: black;
+  text-align: center;
+  z-index: 100;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+.khuvsgul-header{
+  text-align: center;
+  color: rgba(48, 48, 48, 1);
+  margin-bottom: 10px;
+  margin-top: 200px;
+  font-size: 72px;
+} 
+.trip-header{
+  text-align: center;
+  color:rgba(171, 171, 171, 1);
+  font-size: 24px; 
+  margin-bottom: 100px;
+  text-transform: uppercase;
+
+}
+.hero-images{
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px;
+  width: 1199px; 
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.images{
+  width: 284px;
+  height: 400px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  transition: all 1s ease;
+}
+.animation-zoom:hover{
+  background-size: 120%;
+}
+
+.tours-destinations-info{
+  display: flex; 
+  margin-top:200px;  
+  justify-content: space-between;
+  width: 1199px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.destinations{
+  width: 358px; 
+  height: 796px;
+}
+.destination-headers{
+  margin-bottom: 80px;
+}
+.circled-destinations{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.circled-destinations-bg{
+  height: 40px;
+  width: 25px;
+  border-right: 
+  2px dotted black; 
+}
+.destinations-day1{
+  font-weight: bold; 
+  width: 50px;height: 50px; 
+  background-color: black; 
+  border-radius: 50px; 
+  color: rgba(22, 169, 74, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 15px;
+}
+.destinations-day1:hover img{
+  background-color: rgb(74, 74, 74);
+  display: block;
+}
+.destinations-day1 img{
+height: 850px;
+ width: 700px;
+ display: none;
+  position: absolute;
+   top: 0;
+    right: 0px; 
+    border-radius: 16px;}
+.map2{
+  width: 694px; 
+  height: 850px;
+  margin-top: 90px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  z-index: 10;
+}
+.destinations-day4{
+  font-weight: bold; 
+  width: 50px;height: 50px; 
+  background-color: black; 
+  border-radius: 50px; 
+  color: rgba(22, 169, 74, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 15px;
+}
+.destinations-day4:hover .map4{
+  opacity: 1;
+  display: none;
+}
+.destinations-day4:hover{
+  background-color: rgb(74, 74, 74);
+}
+.map4{
+  width: 694px; 
+  height: 846px;
+  margin-top: -280px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  z-index: 10;
+}
+.destinations-day5{
+  font-weight: bold; 
+  width: 50px;height: 50px; 
+  background-color: black; 
+  border-radius: 50px; 
+  color: rgba(22, 169, 74, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 15px;
+}
+.destinations-day5:hover .map5{
+  opacity: 1;
+  display: none;
+}
+.destinations-day5:hover{
+  background-color: rgb(74, 74, 74);
+}
+.map5{
+  width: 694px; 
+  height: 846px;
+  margin-top: -455px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  z-index: 10;
+}
+.destinations-day6{
+  font-weight: bold; 
+  width: 50px;height: 50px; 
+  background-color: black; 
+  border-radius: 50px; 
+  color: rgba(22, 169, 74, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 15px;
+}
+.destinations-day6:hover .map6{
+  opacity: 1;
+  display: none;
+}
+.destinations-day6:hover{
+  background-color: rgb(74, 74, 74);
+}
+.map6{
+  width: 694px; 
+  height: 846px;
+  margin-top: 90px;
+  border-radius: 20px;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  z-index: 10;
+  margin-top: -636px
+}
+.map-img{
+  width: 692px; 
+  height: 845px;
+  border-radius: 20px;
+}
+.tourdays-header{
+  color: rgba(171, 171, 171, 1);
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.destinationofouragency-header{
+  color: rgba(48, 48, 48, 1); 
+  margin: 0px;
+  font-size: 48px
+}
+.locations-bold{
+  font-weight: bold; margin-bottom: 5px
+}
+.locations-normal{
+  color: gray
+}
+.pricing-headers{
+  margin-top: 200px;
+}
+.pricing-header{
+  text-align: center; 
+  color: rgba(171, 171, 171, 1);
+  font-size: 24x; 
+  text-transform: uppercase
+}
+.pricingofouragency-header{
+  text-align: center; 
+  margin-bottom: 80px;
+  color:  rgba(48, 48, 48, 1); 
+  font-size:48px
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width:590px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 250px
+}
+.card{
+  background-color: white;
+  height: 250px;
+  width: 285px; 
+  padding: 50px; 
+  border-radius: 24px 
+}
+.card:hover {
+  border: 2px solid rgba(24, 186, 81, 1)
+}
+.card-items-titles{
+  margin: 0;
+  color: rgba(48, 48, 48, 1);
+  font-size: 20px
+}
+.card-items:hover {
+  font-weight: bold
+}
+.card-boxes{
+  min-height: 150px
+}
+.card-items{
+  margin-bottom: 10px
+}
+.luxury-starter-packs{
+  color:rgba(119, 119, 119, 1);
+}
+.total-cost1{
+  margin-left: 80px
+}
+.total-cost2{
+  color: rgba(48, 48, 48, 1);
+  margin-left: 80px
+}
+.irongray-box{
+  background-color:rgba(23, 23, 23, 1); 
+  margin-top: 150px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  gap: 10px; color: white;
+  font-size: 32px; 
+  font-weight: bold;
+  text-align: center
+}
+.ordering{
+  padding-top: 10px
+}
+.ordering-button{
+  background-color: rgba(24, 186, 81, 1);
+  color: white;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  gap: 10px; 
+  font-weight: bold;  
+  font-size: 16px;
+  text-decoration: none;
+}
+.ordering-button:hover{
+  background-color: rgb(106, 205, 106)
+}
+.blackbox{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 228px;
+  bottom: 0;
+  left: 0; 
+  width: 100%;
+}
+.blackbox2{
+  background-color: black;
+  font-weight: bold; 
+  font-size: 28px;
+  display: flex; 
+  justify-content: space-between;
+  width: 1200px;
+  height: 68px;
+  color: white
+}
+.social-media-profiles{
+  background-color: black; 
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-end; 
+  width: 381px;
+  height: 44px;
+  gap: 20px
+}
+.facebook-profile{
+  display: flex;
+  align-items: center
+}
+.facebook-button{
+ background-color: rgba(48, 48, 48, 1); 
+ font-weight: bold;
+ font-size: 18px; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ width: 168px;
+ height: 44px; 
+ border-radius: 4px; 
+ gap: 10px;
+ text-decoration: none;
+}
+.facebook-button:hover{
+  background-color: rgb(95, 95, 95);
+}
+.instagram-button:hover{
+  background-color: rgb(95, 95, 95)
+}
+.instagram-button{
+ background-color: rgba(48, 48, 48, 1); 
+ font-weight: bold;
+ font-size: 18px; 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ width: 168px;
+ height: 44px; 
+ border-radius: 4px; 
+ gap: 10px
+}
+.ordernow-header{
+  text-align: center;
+  color: rgba(48, 48, 48, 1);
+  margin-bottom: 10px;
+  margin-top: 200px;
+  font-size: 72px;
+}
