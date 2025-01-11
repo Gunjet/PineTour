@@ -1,21 +1,17 @@
 *{
   font-family: "Montserrat";
 }
-
 .body{
   margin: 0;
-  
 }
 .pinetour{
   background-color: black;
   text-align: center;
   z-index: 100;
-
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-
 }
 .khuvsgul-header{
   text-align: center;
@@ -30,7 +26,6 @@
   font-size: 24px; 
   margin-bottom: 100px;
   text-transform: uppercase;
-
 }
 .hero-images{
   display: flex;
@@ -39,7 +34,6 @@
   width: 1199px; 
   margin-left: auto;
   margin-right: auto;
-
 }
 .images{
   width: 284px;
@@ -53,7 +47,6 @@
 .animation-zoom:hover{
   background-size: 120%;
 }
-
 .tours-destinations-info{
   display: flex; 
   margin-top:200px;  
@@ -91,6 +84,10 @@
   align-items: center;
   justify-content: center; 
   font-size: 15px;
+  cursor: pointer;
+}
+.destinations-day1:hover{
+  background-color: rgb(74, 74, 74);
 }
 .destinations-day1:hover img{
   background-color: rgb(74, 74, 74);
@@ -98,12 +95,12 @@
 }
 .destinations-day1 img{
 height: 850px;
- width: 700px;
- display: none;
-  position: absolute;
-   top: 0;
-    right: 0px; 
-    border-radius: 16px;}
+width: 700px;
+display: none;
+position: absolute;
+top: 0;
+right: 0px; 
+border-radius: 16px;}
 .map2{
   width: 694px; 
   height: 850px;
@@ -249,7 +246,10 @@ height: 850px;
   height: 250px;
   width: 285px; 
   padding: 50px; 
-  border-radius: 24px 
+  border-radius: 24px;
+  border: 2px solid white;
+  font-size: 15px;
+  cursor: pointer;
 }
 .card:hover {
   border: 2px solid rgba(24, 186, 81, 1)
@@ -389,10 +389,11 @@ height: 850px;
   margin-bottom: 50px
 }
 .luxury-starter-packs-ordering{
-  font-size: 24px;
   display: flex;
   gap: 10px;
   justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
 }
 .contact-info{
   font-size: 32px;
@@ -408,6 +409,7 @@ height: 850px;
   justify-content: center;
   align-items: center; 
   border-radius: 8px;
+  font-size: 24px;
 }
 .luxurypack{
   width: 317px;
@@ -417,4 +419,5 @@ height: 850px;
   justify-content: center;
   align-items: center; 
   border-radius: 8px;
+  font-size: 24px;
 }
