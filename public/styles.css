@@ -380,4 +380,41 @@ height: 850px;
   margin-bottom: 10px;
   margin-top: 200px;
   font-size: 72px;
+  margin-top: 200px;
+}
+.second-header{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 190px;
+  margin-bottom: 50px
+}
+.luxury-starter-packs-ordering{
+  font-size: 24px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.contact-info{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 220px;
+  margin-bottom: 800px;
+}
+.starterpack{
+  width: 317px;
+  height: 97px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 8px;
+}
+.luxurypack{
+  width: 317px;
+  height: 97px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 8px;
 }
