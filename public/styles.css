@@ -1,10 +1,13 @@
 *{
   font-family: "Montserrat";
 }
+.html{
+  background-color: whitesmoke
+}
 .body{
   margin: 0;
 }
-.pinetour{
+.header{
   background-color: black;
   text-align: center;
   z-index: 100;
@@ -13,15 +16,16 @@
   left: 0;
   right: 0;
 }
-.khuvsgul-header{
+.hero{
   text-align: center;
+  margin-top: 200px;
+}
+.hero-title{
   color: rgba(48, 48, 48, 1);
   margin-bottom: 10px;
-  margin-top: 200px;
   font-size: 72px;
 } 
-.trip-header{
-  text-align: center;
+.hero-subtitle{
   color:rgba(171, 171, 171, 1);
   font-size: 24px; 
   margin-bottom: 100px;
@@ -47,7 +51,7 @@
 .animation-zoom:hover{
   background-size: 120%;
 }
-.tours-destinations-info{
+.tour-destinations{
   display: flex; 
   margin-top:200px;  
   justify-content: space-between;
@@ -63,18 +67,18 @@
 .destination-headers{
   margin-bottom: 80px;
 }
-.circled-destinations{
+.destination{
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.circled-destinations-bg{
+.destination-bg{
   height: 40px;
   width: 25px;
   border-right: 
   2px dotted black; 
 }
-.destinations-day1{
+.day{
   font-weight: bold; 
   width: 50px;height: 50px; 
   background-color: black; 
@@ -86,135 +90,46 @@
   font-size: 15px;
   cursor: pointer;
 }
-.destinations-day1:hover{
+.day:hover{
   background-color: rgb(74, 74, 74);
 }
-.destinations-day1:hover img{
+.day:hover img{
   background-color: rgb(74, 74, 74);
   display: block;
 }
-.destinations-day1 img{
+.day img{
 height: 850px;
 width: 700px;
 display: none;
 position: absolute;
 top: 0;
 right: 0px; 
-border-radius: 16px;}
-.map2{
-  width: 694px; 
-  height: 850px;
-  margin-top: 90px;
-  border-radius: 20px;
-  position: absolute;
-  right: 0;
-  opacity: 0;
-  z-index: 10;
+border-radius: 16px;
 }
-.destinations-day4{
-  font-weight: bold; 
-  width: 50px;height: 50px; 
-  background-color: black; 
-  border-radius: 50px; 
-  color: rgba(22, 169, 74, 1);
+.location{
   display: flex;
-  align-items: center;
-  justify-content: center; 
-  font-size: 15px;
-}
-.destinations-day4:hover .map4{
-  opacity: 1;
-  display: none;
-}
-.destinations-day4:hover{
-  background-color: rgb(74, 74, 74);
-}
-.map4{
-  width: 694px; 
-  height: 846px;
-  margin-top: -280px;
-  border-radius: 20px;
-  position: absolute;
-  right: 0;
-  opacity: 0;
-  z-index: 10;
-}
-.destinations-day5{
-  font-weight: bold; 
-  width: 50px;height: 50px; 
-  background-color: black; 
-  border-radius: 50px; 
-  color: rgba(22, 169, 74, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  font-size: 15px;
-}
-.destinations-day5:hover .map5{
-  opacity: 1;
-  display: none;
-}
-.destinations-day5:hover{
-  background-color: rgb(74, 74, 74);
-}
-.map5{
-  width: 694px; 
-  height: 846px;
-  margin-top: -455px;
-  border-radius: 20px;
-  position: absolute;
-  right: 0;
-  opacity: 0;
-  z-index: 10;
-}
-.destinations-day6{
-  font-weight: bold; 
-  width: 50px;height: 50px; 
-  background-color: black; 
-  border-radius: 50px; 
-  color: rgba(22, 169, 74, 1);
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  font-size: 15px;
-}
-.destinations-day6:hover .map6{
-  opacity: 1;
-  display: none;
-}
-.destinations-day6:hover{
-  background-color: rgb(74, 74, 74);
-}
-.map6{
-  width: 694px; 
-  height: 846px;
-  margin-top: 90px;
-  border-radius: 20px;
-  position: absolute;
-  right: 0;
-  opacity: 0;
-  z-index: 10;
-  margin-top: -636px
+  flex-direction: column;
 }
 .map-img{
   width: 692px; 
   height: 845px;
   border-radius: 20px;
 }
-.tourdays-header{
+.tour-duration{
   color: rgba(171, 171, 171, 1);
   font-size: 24px;
   text-transform: uppercase;
+
 }
-.destinationofouragency-header{
+.destination-header{
   color: rgba(48, 48, 48, 1); 
-  margin: 0px;
-  font-size: 48px
+  font-size: 48px;
+  margin-bottom: 80px;
 }
-.locations-bold{
+.location-name{
   font-weight: bold; margin-bottom: 5px
 }
-.locations-normal{
+.location-city{
   color: gray
 }
 .pricing-headers{
@@ -399,7 +314,7 @@ border-radius: 16px;}
   font-size: 32px;
   text-align: center;
   margin-top: 220px;
-  margin-bottom: 800px;
+  margin-bottom: 1000px;
 }
 .starterpack{
   width: 317px;
@@ -410,6 +325,10 @@ border-radius: 16px;}
   align-items: center; 
   border-radius: 8px;
   font-size: 24px;
+  border: 2px solid white;
+}
+.starterpack:hover{
+  border: 2px solid rgba(48, 48, 48, 1); 
 }
 .luxurypack{
   width: 317px;
@@ -420,4 +339,8 @@ border-radius: 16px;}
   align-items: center; 
   border-radius: 8px;
   font-size: 24px;
+  border: 2px solid white;
+}
+.luxurypack:hover{
+  border: 2px solid rgba(48, 48, 48, 1); 
 }
